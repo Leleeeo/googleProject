@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #202124;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 113rem;
+  height: 60px;
+  gap: 15px;
+}
+
+a {
+  color: white;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.img1 {
+  border: 0px solid;
+  border-radius: 20px;
+}
+
+.header1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header1:hover {
+  background-color: #2f3034;
+  border: 0px solid;
+  border-radius: 20px;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48rem;
+  gap: 20px;
+}
+
+.navigation {
+  border: 1px solid #5f6368;
+  border-radius: 50px;
+  width: 36rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 8px;
+  padding-top: 5px;
+  position: relative;
+  gap: 1rem;
+}
+
+.navigation:hover {
+  background-color: #303134;
+  border: 1px solid #303134;
+  box-shadow: 5px 5px 10px #1b1b1d;
+}
+
+.lupa {
+  width: 15px;
+  height: 15px;
+}
+
+.divlupa {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  line-height: 22px;
+  font-size: 16px;
+  overflow-wrap: break-word;
+  color: white;
+  overflow-x: hidden;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  outline: none;
+  font-family: arial, sans-serif;
+
+  width: 32rem;
+  height: 1.4rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23.6rem;
+  height: 3rem;
+  margin-bottom: 8px;
+}
+
+#barrareta {
+  display: block;
+  border-left: 1px solid #5f6368;
+  height: 65%;
+  margin-bottom: 8px;
+}
+
+.section3 button {
+  width: 8.6rem;
+  height: 2.25rem;
+  background-color: #303134;
+  border: 0px solid;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 14.5px;
+}
+
+.section3 button:hover {
+  border: 1px solid #4f5257;
+}
+
+.section3 {
+  gap: 6rem;
+  margin-bottom: 10.6rem;
+}
+
+footer {
+  background-color: #171717;
+  width: 100%;
+  height: 6.15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.linhas {
+  display: flex;
+  gap: 10px;
+}
+
+.linha1 {
+  border: 0.1px solid #333638;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  gap: 100px;
+  padding-top: 13px;
+}
+
+.nav1 a {
+  padding: 14px;
+}
+
+.brazil {
+  display: flex;
+  width: 5%;
+  height: 2rem;
+  justify-content: center;
+  color: white;
+}
+
+.brazil p {
+  font-size: 15px;
+}
